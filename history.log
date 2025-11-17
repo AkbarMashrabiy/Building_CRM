@@ -326,3 +326,131 @@
  [2025-11-17 02:11:42] LOG | Table: OutputProduct | ID: c3a497cf-77dd-4155-9efd-83ac5f763743 | Action: CREATE | Value: OutputProduct(product=Product(name=AirPods 3, sku=AirPods-3, unit=Unit(name=Dona, symbol=Donalik, category=PIECE, coefficient=0.1, active=true), retailPrice=153000.00, wholesalePrice=120000.00, barcode=423235231, brand=Shirin, active=true), productName=AirPods 3, productPrice=153000.00, output=Output(warehouse=uz.nova.buildingcrm.model.entity.Warehouse@4de2f621, cashier=AuthUser(fullName=akmal, username=akmal, active=true, roles=[MANAGER]), currency=UZS, products=null, date=2025-11-17T02:11:42.752783), amount=2.0, price=153000.0)
 
  [2025-11-17 02:11:42] LOG | Table: Sale | ID: 4fb053d3-b4ab-4ddf-b80f-5c9e0511a6aa | Action: CREATE | Value: uz.nova.buildingcrm.model.entity.Sale@60e25da6
+
+ [2025-11-17 05:07:57] LOG | Table: Product | ID: 4c6ea93c-1fa5-476b-8c2b-6d1b651a7118 | Action: CREATE | Value: Product(name=AirPods 3, sku=AirPods-3, unit=Unit(name=Dona, symbol=Donalik, category=PIECE, coefficient=0.1, active=true), retailPrice=143000, wholesalePrice=120000, barcode=423235231, brand=Shirin, active=true)
+
+ [2025-11-17 05:07:57] LOG | Table: InputProduct | ID: 68e5ea21-859f-43a9-8b77-c1fb3ea3f466 | Action: CREATE | Value: InputProduct(product=Product(name=AirPods 3, sku=AirPods-3, unit=Unit(name=Dona, symbol=Donalik, category=PIECE, coefficient=0.1, active=true), retailPrice=143000, wholesalePrice=120000, barcode=423235231, brand=Shirin, active=true), warehouse=uz.nova.buildingcrm.model.entity.Warehouse@6b33672d, supplier=Supplier(name=Shirin, phone=+998998887766, active=true), currency=UZS, unit=Unit(name=Dona, symbol=Donalik, category=PIECE, coefficient=0.1, active=true), date=2025-11-17T05:07:57.381793, quantity=25, price=143000, oosPercentage=12, minStock=5)
+
+ [2025-11-17 05:07:57] LOG | Table: Stock | ID: 3fe49d07-e5da-4145-9025-f69c41babfbc | Action: CREATE | Value: uz.nova.buildingcrm.model.entity.Stock@540065fa
+
+ [2025-11-17 05:10:38] LOG | Table: Stock | ID: 3fe49d07-e5da-4145-9025-f69c41babfbc | Action: CREATE | Value: uz.nova.buildingcrm.model.entity.Stock@2d8f3b8a
+
+ [2025-11-17 05:10:38] LOG | Table: Output | ID: 025d44fc-2399-4795-96c8-ec121e94e8f0 | Action: CREATE | Value: Output(warehouse=uz.nova.buildingcrm.model.entity.Warehouse@2e495d52, cashier=AuthUser(fullName=akmal, username=akmal, active=true, roles=[MANAGER]), currency=UZS, products=null, date=2025-11-17T05:10:38.693060)
+
+ [2025-11-17 05:10:38] LOG | Table: OutputProduct | ID: 37dcb3c0-818d-4101-b703-b6020893060a | Action: CREATE | Value: OutputProduct(product=Product(name=AirPods 3, sku=AirPods-3, unit=Unit(name=Dona, symbol=Donalik, category=PIECE, coefficient=0.1, active=true), retailPrice=143000.00, wholesalePrice=120000.00, barcode=423235231, brand=Shirin, active=true), productName=AirPods 3, productPrice=143000.00, output=Output(warehouse=uz.nova.buildingcrm.model.entity.Warehouse@2e495d52, cashier=AuthUser(fullName=akmal, username=akmal, active=true, roles=[MANAGER]), currency=UZS, products=null, date=2025-11-17T05:10:38.693060), amount=2.0, price=143000.0)
+
+ [2025-11-17 05:11:17] LOG | Table: Stock | ID: 3fe49d07-e5da-4145-9025-f69c41babfbc | Action: CREATE | Value: uz.nova.buildingcrm.model.entity.Stock@77571deb
+
+ [2025-11-17 05:11:17] LOG | Table: Output | ID: afce5609-f0d4-4a3e-88a0-cf7e21965409 | Action: CREATE | Value: Output(warehouse=uz.nova.buildingcrm.model.entity.Warehouse@72d2250d, cashier=AuthUser(fullName=akmal, username=akmal, active=true, roles=[MANAGER]), currency=UZS, products=null, date=2025-11-17T05:11:17.854966)
+
+ [2025-11-17 05:11:17] LOG | Table: OutputProduct | ID: ba9d2fea-9803-4058-b441-4e0f3cf42ff9 | Action: CREATE | Value: OutputProduct(product=Product(name=AirPods 3, sku=AirPods-3, unit=Unit(name=Dona, symbol=Donalik, category=PIECE, coefficient=0.1, active=true), retailPrice=143000.00, wholesalePrice=120000.00, barcode=423235231, brand=Shirin, active=true), productName=AirPods 3, productPrice=143000.00, output=Output(warehouse=uz.nova.buildingcrm.model.entity.Warehouse@72d2250d, cashier=AuthUser(fullName=akmal, username=akmal, active=true, roles=[MANAGER]), currency=UZS, products=null, date=2025-11-17T05:11:17.854966), amount=2.0, price=143000.0)
+
+ [2025-11-17 05:13:12] LOG | Table: Stock | ID: 3fe49d07-e5da-4145-9025-f69c41babfbc | Action: CREATE | Value: uz.nova.buildingcrm.model.entity.Stock@3f6b5da0
+
+ [2025-11-17 05:13:21] LOG | Table: Stock | ID: 3fe49d07-e5da-4145-9025-f69c41babfbc | Action: CREATE | Value: uz.nova.buildingcrm.model.entity.Stock@595f8e39
+
+ [2025-11-17 05:16:54] LOG | Table: Stock | ID: 3fe49d07-e5da-4145-9025-f69c41babfbc | Action: CREATE | Value: uz.nova.buildingcrm.model.entity.Stock@79c319e2
+
+ [2025-11-17 05:16:54] LOG | Table: Output | ID: 20a69d06-e776-40df-8ee8-30480201a88c | Action: CREATE | Value: Output(warehouse=uz.nova.buildingcrm.model.entity.Warehouse@1cad0757, cashier=AuthUser(fullName=akmal, username=akmal, active=true, roles=[MANAGER]), currency=UZS, products=null, date=2025-11-17T05:16:54.521629)
+
+ [2025-11-17 05:16:54] LOG | Table: OutputProduct | ID: 9c62d607-7b0e-4a9e-b5bc-3e3200626a71 | Action: CREATE | Value: OutputProduct(product=Product(name=AirPods 3, sku=AirPods-3, unit=Unit(name=Dona, symbol=Donalik, category=PIECE, coefficient=0.1, active=true), retailPrice=143000.00, wholesalePrice=120000.00, barcode=423235231, brand=Shirin, active=true), productName=AirPods 3, productPrice=143000.00, output=Output(warehouse=uz.nova.buildingcrm.model.entity.Warehouse@1cad0757, cashier=AuthUser(fullName=akmal, username=akmal, active=true, roles=[MANAGER]), currency=UZS, products=null, date=2025-11-17T05:16:54.521629), amount=2.0, price=143000.0)
+
+ [2025-11-17 12:20:14] LOG | Table: Stock | ID: 3fe49d07-e5da-4145-9025-f69c41babfbc | Action: CREATE | Value: uz.nova.buildingcrm.model.entity.Stock@37442cf8
+
+ [2025-11-17 12:20:14] LOG | Table: Output | ID: 4a384092-4f91-4931-8b00-1d81bf9af0c5 | Action: CREATE | Value: Output(warehouse=uz.nova.buildingcrm.model.entity.Warehouse@4c1f7ee7, cashier=AuthUser(fullName=akmal, username=akmal, active=true, roles=[MANAGER]), currency=UZS, products=null, date=2025-11-17T12:20:14.362725)
+
+ [2025-11-17 12:20:14] LOG | Table: OutputProduct | ID: 2b67cfad-774a-4602-bc5b-a11161a98e7a | Action: CREATE | Value: OutputProduct(product=Product(name=AirPods 3, sku=AirPods-3, unit=Unit(name=Dona, symbol=Donalik, category=PIECE, coefficient=0.1, active=true), retailPrice=143000.00, wholesalePrice=120000.00, barcode=423235231, brand=Shirin, active=true), productName=AirPods 3, productPrice=143000.00, output=Output(warehouse=uz.nova.buildingcrm.model.entity.Warehouse@4c1f7ee7, cashier=AuthUser(fullName=akmal, username=akmal, active=true, roles=[MANAGER]), currency=UZS, products=null, date=2025-11-17T12:20:14.362725), amount=2.0, price=143000.0)
+
+ [2025-11-17 12:24:07] LOG | Table: Stock | ID: 3fe49d07-e5da-4145-9025-f69c41babfbc | Action: CREATE | Value: uz.nova.buildingcrm.model.entity.Stock@4e1cf7ce
+
+ [2025-11-17 12:24:07] LOG | Table: Output | ID: 9ec631a5-5282-4c42-996f-1a9a932b4cd7 | Action: CREATE | Value: Output(warehouse=uz.nova.buildingcrm.model.entity.Warehouse@13df5810, cashier=AuthUser(fullName=akmal, username=akmal, active=true, roles=[MANAGER]), currency=UZS, products=null, date=2025-11-17T12:24:07.405218)
+
+ [2025-11-17 12:24:07] LOG | Table: OutputProduct | ID: e025367c-1f77-447d-ac48-a1ffaf96b92b | Action: CREATE | Value: OutputProduct(product=Product(name=AirPods 3, sku=AirPods-3, unit=Unit(name=Dona, symbol=Donalik, category=PIECE, coefficient=0.1, active=true), retailPrice=143000.00, wholesalePrice=120000.00, barcode=423235231, brand=Shirin, active=true), productName=AirPods 3, productPrice=143000.00, output=Output(warehouse=uz.nova.buildingcrm.model.entity.Warehouse@13df5810, cashier=AuthUser(fullName=akmal, username=akmal, active=true, roles=[MANAGER]), currency=UZS, products=null, date=2025-11-17T12:24:07.405218), amount=2.0, price=143000.0)
+
+ [2025-11-17 12:24:14] LOG | Table: Stock | ID: 3fe49d07-e5da-4145-9025-f69c41babfbc | Action: CREATE | Value: uz.nova.buildingcrm.model.entity.Stock@3a9b52c1
+
+ [2025-11-17 12:24:14] LOG | Table: Output | ID: c64f39b3-63c8-4069-90e6-2411634ddfd6 | Action: CREATE | Value: Output(warehouse=uz.nova.buildingcrm.model.entity.Warehouse@717daade, cashier=AuthUser(fullName=akmal, username=akmal, active=true, roles=[MANAGER]), currency=UZS, products=null, date=2025-11-17T12:24:14.323209)
+
+ [2025-11-17 12:24:14] LOG | Table: OutputProduct | ID: 8dea42b3-d3a2-498c-bd71-a3903992880f | Action: CREATE | Value: OutputProduct(product=Product(name=AirPods 3, sku=AirPods-3, unit=Unit(name=Dona, symbol=Donalik, category=PIECE, coefficient=0.1, active=true), retailPrice=143000.00, wholesalePrice=120000.00, barcode=423235231, brand=Shirin, active=true), productName=AirPods 3, productPrice=143000.00, output=Output(warehouse=uz.nova.buildingcrm.model.entity.Warehouse@717daade, cashier=AuthUser(fullName=akmal, username=akmal, active=true, roles=[MANAGER]), currency=UZS, products=null, date=2025-11-17T12:24:14.323209), amount=2.0, price=143000.0)
+
+ [2025-11-17 12:29:39] LOG | Table: Stock | ID: 3fe49d07-e5da-4145-9025-f69c41babfbc | Action: CREATE | Value: uz.nova.buildingcrm.model.entity.Stock@1e3f43a2
+
+ [2025-11-17 12:29:39] LOG | Table: Output | ID: 64653cb6-3c04-40e5-b6b9-ddbcf6b206d0 | Action: CREATE | Value: Output(warehouse=uz.nova.buildingcrm.model.entity.Warehouse@27cd761d, cashier=AuthUser(fullName=akmal, username=akmal, active=true, roles=[MANAGER]), currency=UZS, products=null, date=2025-11-17T12:29:39.404254)
+
+ [2025-11-17 12:29:39] LOG | Table: OutputProduct | ID: 8bc58044-00f3-42d8-a493-b24748cba9b2 | Action: CREATE | Value: OutputProduct(product=Product(name=AirPods 3, sku=AirPods-3, unit=Unit(name=Dona, symbol=Donalik, category=PIECE, coefficient=0.1, active=true), retailPrice=143000.00, wholesalePrice=120000.00, barcode=423235231, brand=Shirin, active=true), productName=AirPods 3, productPrice=143000.00, output=Output(warehouse=uz.nova.buildingcrm.model.entity.Warehouse@27cd761d, cashier=AuthUser(fullName=akmal, username=akmal, active=true, roles=[MANAGER]), currency=UZS, products=null, date=2025-11-17T12:29:39.404254), amount=2.0, price=143000.0)
+
+ [2025-11-17 12:29:39] LOG | Table: CreditSale | ID: 2c7f71d5-e46b-41dc-abdb-22d2fb246b85 | Action: CREATE | Value: CreditSale(sale=null, customerName=Shuxrat, phone=+998997776655, totalAmount=286000.00, paidAmount=0, purchaseDate=2025-11-17, dueDate=2026-11-16, status=CREDIT)
+
+ [2025-11-17 12:29:39] LOG | Table: Stock | ID: 3fe49d07-e5da-4145-9025-f69c41babfbc | Action: CREATE | Value: uz.nova.buildingcrm.model.entity.Stock@1e3f43a2
+
+ [2025-11-17 12:29:39] LOG | Table: Output | ID: 1d9c8b30-b95d-456f-adb8-56241ca7ed05 | Action: CREATE | Value: Output(warehouse=uz.nova.buildingcrm.model.entity.Warehouse@27cd761d, cashier=AuthUser(fullName=akmal, username=akmal, active=true, roles=[MANAGER]), currency=UZS, products=null, date=2025-11-17T12:29:39.444799)
+
+ [2025-11-17 12:29:39] LOG | Table: OutputProduct | ID: 52bf0cbe-1d57-44da-bf0d-6f1b08ce54a6 | Action: CREATE | Value: OutputProduct(product=Product(name=AirPods 3, sku=AirPods-3, unit=Unit(name=Dona, symbol=Donalik, category=PIECE, coefficient=0.1, active=true), retailPrice=143000.00, wholesalePrice=120000.00, barcode=423235231, brand=Shirin, active=true), productName=AirPods 3, productPrice=143000.00, output=Output(warehouse=uz.nova.buildingcrm.model.entity.Warehouse@27cd761d, cashier=AuthUser(fullName=akmal, username=akmal, active=true, roles=[MANAGER]), currency=UZS, products=null, date=2025-11-17T12:29:39.444799), amount=6.0, price=143000.0)
+
+ [2025-11-17 12:29:39] LOG | Table: CreditSale | ID: 430c38e0-22a7-4da5-8c1e-581aae45ebd4 | Action: CREATE | Value: CreditSale(sale=null, customerName=Shuxrat, phone=+998997776655, totalAmount=858000.00, paidAmount=0, purchaseDate=2025-11-17, dueDate=2026-11-16, status=CREDIT)
+
+ [2025-11-17 12:39:50] LOG | Table: Stock | ID: 3fe49d07-e5da-4145-9025-f69c41babfbc | Action: CREATE | Value: uz.nova.buildingcrm.model.entity.Stock@6ef65bbf
+
+ [2025-11-17 12:40:38] LOG | Table: Stock | ID: 3fe49d07-e5da-4145-9025-f69c41babfbc | Action: CREATE | Value: uz.nova.buildingcrm.model.entity.Stock@607b52dc
+
+ [2025-11-17 12:40:54] LOG | Table: Product | ID: 4c6ea93c-1fa5-476b-8c2b-6d1b651a7118 | Action: CREATE | Value: Product(name=AirPods 3, sku=AirPods-3, unit=Unit(name=Dona, symbol=Donalik, category=PIECE, coefficient=0.1, active=true), retailPrice=143000, wholesalePrice=120000, barcode=423235231, brand=Shirin, active=true)
+
+ [2025-11-17 12:40:54] LOG | Table: InputProduct | ID: 315a8474-995b-4e23-a9b3-3060d6071a5c | Action: CREATE | Value: InputProduct(product=Product(name=AirPods 3, sku=AirPods-3, unit=Unit(name=Dona, symbol=Donalik, category=PIECE, coefficient=0.1, active=true), retailPrice=143000, wholesalePrice=120000, barcode=423235231, brand=Shirin, active=true), warehouse=uz.nova.buildingcrm.model.entity.Warehouse@6c40f1aa, supplier=Supplier(name=Shirin, phone=+998998887766, active=true), currency=UZS, unit=Unit(name=Dona, symbol=Donalik, category=PIECE, coefficient=0.1, active=true), date=2025-11-17T12:40:54.052314, quantity=25, price=143000, oosPercentage=12, minStock=5)
+
+ [2025-11-17 12:40:54] LOG | Table: Stock | ID: 3fe49d07-e5da-4145-9025-f69c41babfbc | Action: CREATE | Value: uz.nova.buildingcrm.model.entity.Stock@530fec5b
+
+ [2025-11-17 12:40:58] LOG | Table: Stock | ID: 3fe49d07-e5da-4145-9025-f69c41babfbc | Action: CREATE | Value: uz.nova.buildingcrm.model.entity.Stock@5cfd134e
+
+ [2025-11-17 12:41:41] LOG | Table: Stock | ID: 3fe49d07-e5da-4145-9025-f69c41babfbc | Action: CREATE | Value: uz.nova.buildingcrm.model.entity.Stock@1263c9e8
+
+ [2025-11-17 12:43:08] LOG | Table: Stock | ID: 3fe49d07-e5da-4145-9025-f69c41babfbc | Action: CREATE | Value: uz.nova.buildingcrm.model.entity.Stock@e4c5077
+
+ [2025-11-17 12:47:41] LOG | Table: Stock | ID: 3fe49d07-e5da-4145-9025-f69c41babfbc | Action: CREATE | Value: uz.nova.buildingcrm.model.entity.Stock@4051363a
+
+ [2025-11-17 12:47:41] LOG | Table: Sale | ID: 9721aa42-3c67-47e7-8767-cda7d8ed391c | Action: CREATE | Value: uz.nova.buildingcrm.model.entity.Sale@51018be3
+
+ [2025-11-17 12:47:41] LOG | Table: Output | ID: cba8ccff-b2ff-4acc-b6aa-cecddf493f06 | Action: CREATE | Value: Output(warehouse=uz.nova.buildingcrm.model.entity.Warehouse@fe35a7d, cashier=AuthUser(fullName=akmal, username=akmal, active=true, roles=[MANAGER]), currency=UZS, products=null, date=2025-11-17T12:47:41.919469)
+
+ [2025-11-17 12:47:41] LOG | Table: OutputProduct | ID: 8cc7bb15-3faf-4875-b8fb-898db74ccd79 | Action: CREATE | Value: OutputProduct(product=Product(name=AirPods 3, sku=AirPods-3, unit=Unit(name=Dona, symbol=Donalik, category=PIECE, coefficient=0.1, active=true), retailPrice=143000.00, wholesalePrice=120000.00, barcode=423235231, brand=Shirin, active=true), productName=AirPods 3, productPrice=143000.00, output=Output(warehouse=uz.nova.buildingcrm.model.entity.Warehouse@fe35a7d, cashier=AuthUser(fullName=akmal, username=akmal, active=true, roles=[MANAGER]), currency=UZS, products=null, date=2025-11-17T12:47:41.919469), amount=2.0, price=143000.0)
+
+ [2025-11-17 12:47:41] LOG | Table: CreditSale | ID: 61ebb125-b6ac-4cf5-aa97-1679f433009a | Action: CREATE | Value: CreditSale(sale=uz.nova.buildingcrm.model.entity.Sale@51018be3, customerName=Shuxrat, phone=+998997776655, totalAmount=286000.00, paidAmount=0, purchaseDate=2025-11-17, dueDate=2026-11-16, status=CREDIT)
+
+ [2025-11-17 12:47:41] LOG | Table: Stock | ID: 3fe49d07-e5da-4145-9025-f69c41babfbc | Action: CREATE | Value: uz.nova.buildingcrm.model.entity.Stock@4051363a
+
+ [2025-11-17 12:47:42] LOG | Table: Sale | ID: 2b931b47-7ae4-4721-893e-1bf5f8959e7b | Action: CREATE | Value: uz.nova.buildingcrm.model.entity.Sale@74071e1b
+
+ [2025-11-17 12:47:42] LOG | Table: Output | ID: f3de1c7c-30dc-42fe-af09-1a3df2c9c12a | Action: CREATE | Value: Output(warehouse=uz.nova.buildingcrm.model.entity.Warehouse@fe35a7d, cashier=AuthUser(fullName=akmal, username=akmal, active=true, roles=[MANAGER]), currency=UZS, products=null, date=2025-11-17T12:47:41.999778)
+
+ [2025-11-17 12:47:42] LOG | Table: OutputProduct | ID: b6d2a4e4-ac66-4d24-8e5a-524135a96d5a | Action: CREATE | Value: OutputProduct(product=Product(name=AirPods 3, sku=AirPods-3, unit=Unit(name=Dona, symbol=Donalik, category=PIECE, coefficient=0.1, active=true), retailPrice=143000.00, wholesalePrice=120000.00, barcode=423235231, brand=Shirin, active=true), productName=AirPods 3, productPrice=143000.00, output=Output(warehouse=uz.nova.buildingcrm.model.entity.Warehouse@fe35a7d, cashier=AuthUser(fullName=akmal, username=akmal, active=true, roles=[MANAGER]), currency=UZS, products=null, date=2025-11-17T12:47:41.999778), amount=6.0, price=143000.0)
+
+ [2025-11-17 12:47:42] LOG | Table: CreditSale | ID: ccbe6b85-87c4-4c3e-b0b2-c0cbd429a50b | Action: CREATE | Value: CreditSale(sale=uz.nova.buildingcrm.model.entity.Sale@74071e1b, customerName=Shuxrat, phone=+998997776655, totalAmount=858000.00, paidAmount=0, purchaseDate=2025-11-17, dueDate=2026-11-16, status=CREDIT)
+
+ [2025-11-17 12:47:45] LOG | Table: Stock | ID: 3fe49d07-e5da-4145-9025-f69c41babfbc | Action: CREATE | Value: uz.nova.buildingcrm.model.entity.Stock@15dbbda0
+
+ [2025-11-17 12:47:45] LOG | Table: Sale | ID: 126bce94-bea8-4b78-9cf6-9c2c167dd556 | Action: CREATE | Value: uz.nova.buildingcrm.model.entity.Sale@e590d76
+
+ [2025-11-17 12:47:45] LOG | Table: Output | ID: a1167f14-f67e-4ed0-9d03-fdcc4cff6bb4 | Action: CREATE | Value: Output(warehouse=uz.nova.buildingcrm.model.entity.Warehouse@2c873969, cashier=AuthUser(fullName=akmal, username=akmal, active=true, roles=[MANAGER]), currency=UZS, products=null, date=2025-11-17T12:47:45.167364)
+
+ [2025-11-17 12:47:45] LOG | Table: OutputProduct | ID: 25131e07-b477-498c-a851-eb40b5854af0 | Action: CREATE | Value: OutputProduct(product=Product(name=AirPods 3, sku=AirPods-3, unit=Unit(name=Dona, symbol=Donalik, category=PIECE, coefficient=0.1, active=true), retailPrice=143000.00, wholesalePrice=120000.00, barcode=423235231, brand=Shirin, active=true), productName=AirPods 3, productPrice=143000.00, output=Output(warehouse=uz.nova.buildingcrm.model.entity.Warehouse@2c873969, cashier=AuthUser(fullName=akmal, username=akmal, active=true, roles=[MANAGER]), currency=UZS, products=null, date=2025-11-17T12:47:45.167364), amount=2.0, price=143000.0)
+
+ [2025-11-17 12:47:45] LOG | Table: CreditSale | ID: be8198f7-0266-494f-a9fb-3b89e103e471 | Action: CREATE | Value: CreditSale(sale=uz.nova.buildingcrm.model.entity.Sale@e590d76, customerName=Shuxrat, phone=+998997776655, totalAmount=286000.00, paidAmount=0, purchaseDate=2025-11-17, dueDate=2026-11-16, status=CREDIT)
+
+ [2025-11-17 12:47:45] LOG | Table: Stock | ID: 3fe49d07-e5da-4145-9025-f69c41babfbc | Action: CREATE | Value: uz.nova.buildingcrm.model.entity.Stock@15dbbda0
+
+ [2025-11-17 12:47:45] LOG | Table: Sale | ID: f1bc6f25-59fe-4017-937d-e5dfa6dd6557 | Action: CREATE | Value: uz.nova.buildingcrm.model.entity.Sale@26c8c868
+
+ [2025-11-17 12:47:45] LOG | Table: Output | ID: 1bb3fd93-c084-426a-9201-c05bbced2a43 | Action: CREATE | Value: Output(warehouse=uz.nova.buildingcrm.model.entity.Warehouse@2c873969, cashier=AuthUser(fullName=akmal, username=akmal, active=true, roles=[MANAGER]), currency=UZS, products=null, date=2025-11-17T12:47:45.193311)
+
+ [2025-11-17 12:47:45] LOG | Table: OutputProduct | ID: abe6bca2-89b9-4669-91a1-bb42a3e29911 | Action: CREATE | Value: OutputProduct(product=Product(name=AirPods 3, sku=AirPods-3, unit=Unit(name=Dona, symbol=Donalik, category=PIECE, coefficient=0.1, active=true), retailPrice=143000.00, wholesalePrice=120000.00, barcode=423235231, brand=Shirin, active=true), productName=AirPods 3, productPrice=143000.00, output=Output(warehouse=uz.nova.buildingcrm.model.entity.Warehouse@2c873969, cashier=AuthUser(fullName=akmal, username=akmal, active=true, roles=[MANAGER]), currency=UZS, products=null, date=2025-11-17T12:47:45.193311), amount=6.0, price=143000.0)
+
+ [2025-11-17 12:47:45] LOG | Table: CreditSale | ID: 63e0b6e3-8411-43de-8c8b-e4f4e8080b30 | Action: CREATE | Value: CreditSale(sale=uz.nova.buildingcrm.model.entity.Sale@26c8c868, customerName=Shuxrat, phone=+998997776655, totalAmount=858000.00, paidAmount=0, purchaseDate=2025-11-17, dueDate=2026-11-16, status=CREDIT)
+
+ [2025-11-17 12:53:40] LOG | Table: Stock | ID: 3fe49d07-e5da-4145-9025-f69c41babfbc | Action: CREATE | Value: uz.nova.buildingcrm.model.entity.Stock@3747f9cc
+
+ [2025-11-17 12:53:40] LOG | Table: Sale | ID: 2c04b648-e306-49ff-8b6e-a992ac1fa3b1 | Action: CREATE | Value: uz.nova.buildingcrm.model.entity.Sale@7e667370
+
+ [2025-11-17 12:53:40] LOG | Table: Output | ID: c349acb8-e105-4ac1-9fa0-852fb2ee89bd | Action: CREATE | Value: Output(warehouse=uz.nova.buildingcrm.model.entity.Warehouse@15cdc72b, cashier=AuthUser(fullName=akmal, username=akmal, active=true, roles=[MANAGER]), currency=UZS, products=null, date=2025-11-17T12:53:40.782823)
+
+ [2025-11-17 12:53:40] LOG | Table: OutputProduct | ID: 0a3419bb-68f1-4e5d-b90a-c6775e34ab72 | Action: CREATE | Value: OutputProduct(product=Product(name=AirPods 3, sku=AirPods-3, unit=Unit(name=Dona, symbol=Donalik, category=PIECE, coefficient=0.1, active=true), retailPrice=143000.00, wholesalePrice=120000.00, barcode=423235231, brand=Shirin, active=true), productName=AirPods 3, productPrice=143000.00, output=Output(warehouse=uz.nova.buildingcrm.model.entity.Warehouse@15cdc72b, cashier=AuthUser(fullName=akmal, username=akmal, active=true, roles=[MANAGER]), currency=UZS, products=null, date=2025-11-17T12:53:40.782823), amount=2.0, price=143000.0)
+
+ [2025-11-17 12:53:40] LOG | Table: CreditSale | ID: cf96dc46-458a-43d3-b46b-8a4abe7fd869 | Action: CREATE | Value: CreditSale(sale=uz.nova.buildingcrm.model.entity.Sale@7e667370, customerName=Shuxrat, phone=+998997776655, totalAmount=286000.00, paidAmount=0, purchaseDate=2025-11-17, dueDate=2026-11-16, status=CREDIT)

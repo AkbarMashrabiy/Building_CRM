@@ -2,5 +2,7 @@ package uz.nova.buildingcrm.model.enums;
 
 public enum SaleStatus {
     CREDIT,
-    PAID
+    PAID,
+    UNPAID,
+    COMPLETED
 }

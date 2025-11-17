@@ -118,6 +118,16 @@ public class SaleServiceImpl implements SaleService {
 
         BigDecimal total = retailPrice.multiply(BigDecimal.valueOf(amount));
 
+
+        Sale sale = Sale.builder()
+                .warehouse(warehouse)
+                .cashier(cashier)
+                .totalAmount(total)
+                .date(LocalDate.now())
+                .status(SaleStatus.UNPAID)
+                .build();
+
+
         CreditSale creditSale = CreditSale.builder()
                 .customerName(request.getCustomerName())
                 .phone(request.getPhone())
@@ -126,6 +136,7 @@ public class SaleServiceImpl implements SaleService {
                 .purchaseDate(LocalDate.now())
                 .dueDate(request.getDueDate())
                 .status(SaleStatus.CREDIT)
+                .sale(sale)
                 .build();
 
 
@@ -144,6 +155,8 @@ public class SaleServiceImpl implements SaleService {
         op.setProduct(product);
         op.setProductPrice(product.getRetailPrice());
 
+
+        saleRepository.save(sale);
         outputRepository.save(output);
         outputProductRepository.save(op);
         creditSaleRepository.save(creditSale);
